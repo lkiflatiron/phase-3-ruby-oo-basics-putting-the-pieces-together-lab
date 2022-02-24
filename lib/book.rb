@@ -1,3 +1,5 @@
+require 'pry'
+
 class Book
   attr_reader :title
   attr_accessor :author, :page_count, :genre
@@ -10,13 +12,3 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 end
-
-
-# class Dog
-#   attr_reader :name
-#   attr_reader :breed
-#   def initialize(name, breed="Mutt")
-#     @name = name
-#     @breed = breed
-#   end
-# end
